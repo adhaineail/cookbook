@@ -3,9 +3,9 @@ import html
 
 # ---------- CONFIGURATION ----------
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-CSS_FILE = os.path.join(ROOT_DIR, "Stylesheet.css")
+CSS_FILE = os.path.join(ROOT_DIR, "stylesheet.css")
 OUTPUT_EXT_HTML = ".html"
-INDEX_FILE = os.path.join(ROOT_DIR, "Index.html")
+INDEX_FILE = os.path.join(ROOT_DIR, "index.html")
 # -----------------------------------
 
 # ---------- RECIPE PARSER ----------
@@ -119,7 +119,7 @@ def build_html_list(path, level=0):
     entries = sorted(os.listdir(path))
     for name in entries:
         full_path = os.path.join(path, name)
-        if name.startswith(".") or name in {"Index.html"}:
+        if name.startswith(".") or name in {"index.html"}:
             continue
 
         if os.path.isdir(full_path):
@@ -140,7 +140,7 @@ def build_index():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css">
   <title>Recipe Collection</title>
 </head>
 <body>
