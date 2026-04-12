@@ -16,7 +16,7 @@
   {% endif %}
 </div>
 
-{% assign image_path = ".assets/" | append: page.slug | append: ".jpg" %}
+{% assign image_path = "_assets/" | append: page.slug | append: ".jpg" %}
 
 {% for file in site.static_files %}
   {% if file.path contains image_path %}
