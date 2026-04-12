@@ -9,10 +9,10 @@ tags:
   - fermented
 ---
 ## 🛒 Ingredients
-- 500g flour
-- 370g water
-- ¼ tsp yeast
-- 1 ½ tsp salt
+- 500 g flour
+- 370 g water
+- ¼ teaspoon yeast
+- 1 ½ teaspoons salt
 
 ## 👩‍🍳 Directions
 1. Mix all ingredients together.

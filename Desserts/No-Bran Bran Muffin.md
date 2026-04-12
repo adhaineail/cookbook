@@ -10,13 +10,13 @@ tags:
 ## 🛒 Ingredients
 - 1 cup chickpea flour
 - ¼ cup flaxseed meal
-- 1 ¾ tsp baking powder
-- ¾ tsp ground cinnamon
-- ¼ tsp fine sea salt
+- 1 ¾ teaspoons baking powder
+- ¾ teaspoon ground cinnamon
+- ¼ teaspoon fine sea salt
 - ¾ cup finely mashed, very ripe banana
 - ⅔ cup non-dairy milk
-- 1-2 tbsp dark molasses
-- 1 tsp vanilla extract
+- 1-2 tablespoons dark molasses
+- 1 teaspoon vanilla extract
 
 ## 👩‍🍳 Directions
 1. Preheat oven to 350F (180C). Spray or grease 8 cups of a standard size muffin tin.

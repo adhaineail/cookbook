@@ -10,7 +10,7 @@ tags:
 ## 🛒 Ingredients
 - ½ cup raw cashews, softened
 - 1 cup water
-- 3-4 tablespoons tapioca starch
+- 3-4 tablespoon tapioca starch
 - 1 tablespoon coconut oil
 - 1 tablespoon nutritional yeast
 - 1 teaspoon apple cider vinegar
