@@ -2,7 +2,7 @@
 layout: default
 ---
 {%- assign filename = page.path | split: "/" | last | replace: ".md", "" -%}
-{%- assign image_path = "_assets/" | append: filename | append: ".jpg" -%}
+{%- assign image_path = ".assets/" | append: filename | append: ".jpg" -%}
 
 <style>
   .recipe-header-image { max-width: 100%; border-radius: 8px; margin-bottom: 1.5rem; }
