@@ -19,7 +19,7 @@ tags:
 - 1 teaspoon vanilla extract
 
 ## 👩‍🍳 Directions
-1. Preheat oven to 350F (180C). Spray or grease 8 cups of a standard size muffin tin.
+1. Preheat oven to 350°F (180°C). Spray or grease 8 cups of a standard size muffin tin.
 2. In a small bowl, whisk the chickpea flour, flaxseed meal, baking powder, cinnamon and salt until blended, being sure to break up any and all lumps in the chickpea flour.
 3. In a large bowl, stir together the banana, milk, molasses and vanilla until blended. Add the flour mixture, whisking until blended and smooth.
 4. Divide batter evenly between the prepared cups.

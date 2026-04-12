@@ -18,9 +18,9 @@ tags:
 1. Mix all ingredients together.
 2. Let rest for 12-16 hours depending on temperature and humidity.
 3. Shape dough into ball. Dust with flour and place upside down into dusted banneton.
-4. Preheat oven and pan to 250c/475f 20 minutes before dough is ready.
+4. Preheat oven and pan to 250°C (475°F) for 20 minutes before dough is ready.
 5. After 2 hours rest or just before dough reaches top of banneton, flip dough from banneton into hot pan.
-6. Reduce oven temperature to 235c/450f. Bake for 30 minutes with lid on, then 5 minutes without.
+6. Reduce oven temperature to 235°C (450°F). Bake for 30 minutes with lid on, then 5 minutes without.
 7. Let bread cool to room temperature before cutting.
 
 ## 📝 Notes
