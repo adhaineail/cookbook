@@ -1,23 +1,6 @@
----
-layout: default
-title: My Recipe Index
----
-
-# Recipe Collection
-
-{% assign recipes_by_folder = site.pages | group_by_exp: "item", "item.path | split: '/' | first" %}
-
-{% for folder in recipes_by_folder %}
-  {% unless folder.name contains '.md' or folder.name == "assets" %}
-    ## {{ folder.name | replace: "_", " " | capitalize }}
-    <ul>
-      {% for recipe in folder.items %}
-        {% if recipe.title %}
-          <li>
-            <a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  {% endunless %}
-{% endfor %}
+* [Test Link 1](Sides/Easy%20Wholemeal%20Bread.html)
+* [Test Link 2](/Sides/Easy%20Wholemeal%20Bread.html)
+* [Test Link 3]({{ site.baseurl }}/Sides/Easy%20Wholemeal%20Bread.html)
+* [Test Link 1](Sides/Easy%20Wholemeal%20Bread.md)
+* [Test Link 2](/Sides/Easy%20Wholemeal%20Bread.md)
+* [Test Link 3]({{ site.baseurl }}/Sides/Easy%20Wholemeal%20Bread.md)
