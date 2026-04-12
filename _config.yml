@@ -1,4 +1,4 @@
 title: My Markdown Cookbook
 baseurl: "/cookbook"
 url: "https://adhaineail.github.io"
-# theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
