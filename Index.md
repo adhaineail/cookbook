@@ -1,16 +1,21 @@
 ---
 layout: default
-title: Recipe Index
+title: My Recipe Index
 ---
-{% assign recipes_by_folder = site.pages | group_by_exp: "item", "item.path | split: '/' | first" %}
 
-{% for folder in recipes_by_folder %}
-  {% unless folder.name contains '.md' %}
-    ## {{ folder.name | capitalize }}
-    <ul>
-      {% for recipe in folder.items %}
-        <li><a href="{{ recipe.url | relative_url }}">{{ recipe.title | default: recipe.name }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endunless %}
+# Recipe Collection
+
+{% assign all_pages = site.pages | sort: "path" %}
+
+{% for page in all_pages %}
+  {% if page.path contains '/' and page.title %}
+    {% capture current_dir %}{{ page.path | split: "/" | first }}{% endcapture %}
+    
+    {% if current_dir != last_dir %}
+      ## {{ current_dir | capitalize }}
+      {% assign last_dir = current_dir %}
+    {% endif %}
+
+    * [{{ page.title }}]({{ page.url | relative_url }})
+  {% endif %}
 {% endfor %}
