@@ -8,6 +8,16 @@ layout: default
 tags:
   - fermented
 ---
+
+<style>
+  ul, li, p, h1, h2 { text-align: left; margin-left: 0; padding-left: 0; }
+  ul { list-style-position: inside; }
+</style>
+
+{%- if page.note -%}
+{{ page.note }}
+{%- endif -%}
+
 ## 🛒 Ingredients
 - 500g flour
 - 370g water
