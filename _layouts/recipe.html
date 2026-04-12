@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign filename = page.path | split: "/" | last | replace: ".md", "" -%}
+{%- assign filename = page.path | split: "/" | last | replace: ".md", "" | slugify -%}
 {%- assign image_path = ".assets/" | append: filename | append: ".jpg" -%}
 
 <style>
