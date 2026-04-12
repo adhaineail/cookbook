@@ -5,8 +5,4 @@ url: "https://adhaineail.github.io"
 # theme: cayman
 remote_theme: just-the-docs/just-the-docs
 include: [".assets"]
-defaults:
-  - scope:
-      path: "" # this applies to all files
-    values:
-      permalink: "/:path/"
+permalink: /:categories/:basename/
