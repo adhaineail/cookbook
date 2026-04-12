@@ -2,4 +2,5 @@ title: My Markdown Cookbook
 baseurl: "/cookbook"
 url: "https://adhaineail.github.io"
 # theme: minima
+# theme: cayman
 remote_theme: just-the-docs/just-the-docs
