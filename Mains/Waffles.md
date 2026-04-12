@@ -23,7 +23,7 @@ tags:
 ## 👩‍🍳 Directions
 1. Make your **flax egg** and creamy vegan buttermilk by mixing the **almond milk** and **lemon juice**. Set aside.
 2. Sift all of the **dry ingredients** together in a large bowl. Then, add the **flax egg**, **vegan buttermilk**, **unsweetened applesauce**, **sugar**, and **vanilla extract**.
-3. Stir with a rubber spatula or wooden spoon until the batter is just combined. Do not overmix.
-4. **Preheat waffle maker** until hot. Spray lightly or rub with oil. Pour about 1/2 cup of the batter onto each side of the waffle maker. Cook for 6-7min until both sides of the waffle are golden brown. Do not lift up the waffle iron before the waffles are ready, or your waffles will stick.
+3. Stir with a rubber spatula or wooden spoon until the batter is just combined. **Do not overmix**.
+4. **Preheat waffle maker** until hot. Spray lightly or rub with oil. Pour about **1/2 cup of the batter** onto each side of the waffle maker. **Cook for 6-7 minutes** until both sides of the waffle are golden brown. Do not lift up the waffle iron before the waffles are ready, or your waffles will stick.
 
 ## 📝 Notes
