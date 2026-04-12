@@ -1,8 +1,12 @@
 title: Cookbook
 baseurl: "/cookbook"
 url: "https://adhaineail.github.io"
-permalink: pretty
 # theme: minima
 # theme: cayman
 remote_theme: just-the-docs/just-the-docs
 include: [".assets"]
+defaults:
+  - scope:
+      path: "" # this applies to all files
+    values:
+      permalink: "/:path/"
