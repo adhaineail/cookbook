@@ -1,14 +1,14 @@
 ---
 title: Easy Wholemeal Bread
+layout: default
+image:
 cuisine:
 active time: 15 minutes
 total time: 16 hours
 servings: "8"
-layout: default
 tags:
   - fermented
 ---
-
 ## 🛒 Ingredients
 - 500g flour
 - 370g water
