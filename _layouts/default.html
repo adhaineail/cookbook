@@ -1,13 +1,15 @@
 ---
-layout: table_of_contents
+layout: default
 ---
 {%- assign filename = page.path | split: "/" | last | replace: ".md", "" -%}
 {%- assign image_path = "_assets/" | append: filename | append: ".jpg" -%}
 
-{% for file in site.static_files %}
-  {% if file.path contains image_path %}
-    <img src="{{ image_path | relative_url }}" style="max-width:100%; border-radius: 8px; margin-bottom: 1.5rem;">
-  {% endif %}
-{% endfor %}
+{% unless page.url == "/" or page.url == "/index.html" %}
+  {% for file in site.static_files %}
+    {% if file.path contains image_path %}
+      <img src="{{ image_path | relative_url }}" style="max-width:100%; border-radius: 8px; margin-bottom: 2rem;">
+    {% endif %}
+  {% endfor %}
+{% endunless %}
 
 {{ content }}
