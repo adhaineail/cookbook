@@ -1,25 +1,13 @@
 ---
+layout: table_of_contents
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
-  <title>{{ page.title }}</title>
-</head>
-<body>
-  <div class="page-content">
-    <div class="wrapper">
-      
-      {% assign image_path = "_assets/" | append: page.slug | append: ".jpg" %}
-      <img src="{{ image_path | relative_url }}" onerror="this.style.display='none'" style="max-width:100%; border-radius: 8px; margin-bottom: 20px;">
+{%- assign filename = page.path | split: "/" | last | replace: ".md", "" -%}
+{%- assign image_path = "_assets/" | append: filename | append: ".jpg" -%}
 
-      <h1>{{ page.title }}</h1>
-      
-      {{ content }}
-      
-    </div>
-  </div>
-</body>
-</html>
+{% for file in site.static_files %}
+  {% if file.path contains image_path %}
+    <img src="{{ image_path | relative_url }}" style="max-width:100%; border-radius: 8px; margin-bottom: 1.5rem;">
+  {% endif %}
+{% endfor %}
+
+{{ content }}
