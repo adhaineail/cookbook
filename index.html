@@ -3,6 +3,11 @@ layout: default
 title: My Recipe Index
 ---
 
+<style>
+  ul, li, p, h1, h2 { text-align: left; margin-left: 0; padding-left: 0; }
+  ul { list-style-position: inside; }
+</style>
+
 <h1>📖 Recipe Collection</h1>
 
 {% assign recipes_by_folder = site.pages | group_by_exp: "item", "item.path | split: '/' | first" %}
