@@ -16,4 +16,12 @@
   {% endif %}
 </div>
 
+{% assign image_path = ".assets/" | append: page.slug | append: ".jpg" %}
+
+{% for file in site.static_files %}
+  {% if file.path contains image_path %}
+    <img src="{{ image_path | relative_url }}" alt="{{ page.title }}" style="max-width:100%; height:auto; border-radius: 8px;">
+  {% endif %}
+{% endfor %}
+
 {{ content }}
