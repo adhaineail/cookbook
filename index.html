@@ -3,19 +3,31 @@ layout: default
 title: My Recipe Index
 ---
 
-# 📖 Recipe Collection
+<h1>📖 Recipe Collection</h1>
 
 {% assign recipes_by_folder = site.pages | group_by_exp: "item", "item.path | split: '/' | first" %}
 
 {% for folder in recipes_by_folder %}
-  {% unless folder.name contains '.md' or folder.name == "assets" %}
-    ## {{ folder.name | replace: "-", " " | replace: "_", " " | capitalize }}
+  {% comment %} 
+    This 'unless' skips the root folder (where index.html lives) 
+    and any technical folders like 'assets' 
+  {% endcomment %}
+  {% unless folder.name contains '.html' or folder.name contains '.md' or folder.name == "assets" %}
+    
+    <h2>{{ folder.name | replace: "-", " " | replace: "_", " " | capitalize }}</h2>
+    
     <ul>
-      {%- for recipe in folder.items -%}
-        {%- if recipe.title -%}
-          <li><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></li>
-        {%- endif -%}
-      {%- endfor -%}
+      {% for recipe in folder.items %}
+        {% comment %} 
+          Check if the file has a title and isn't a technical file 
+        {% endcomment %}
+        {% if recipe.title and recipe.path != "README.md" %}
+          <li>
+            <a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
+
   {% endunless %}
 {% endfor %}
