@@ -1,7 +1,6 @@
 ---
 title: Lemon Garlic Tahini Sauce
 layout: recipe
-image:
 cuisine: Mediterannean
 active time: 5 minutes
 total time: 5 minutes

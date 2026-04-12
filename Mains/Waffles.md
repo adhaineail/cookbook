@@ -10,11 +10,11 @@ tags:
 ---
 ## 🛒 Ingredients
 - 1 flax egg (heaping tbsp flax meal mixed with 2.5 tbsp warm water)
-- 2 cups unsweetened soy milk
+- 2 cup unsweetened soy milk
 - 2 tbsp lemon juice
 - 1 cup whole wheat flour
 - 1 cup oat or whole wheat pastry flour
-- 1 tbsp + 1 tsp baking powder
+- 1 ½ tbsp
 - ½ tsp salt
 - 2-3 tbsp sugar
 - ½ cup unsweetened applesauce

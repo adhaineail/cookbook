@@ -1,7 +1,6 @@
 ---
 title: Easy Wholemeal Bread
 layout: recipe
-image:
 cuisine:
 active time: 15 minutes
 total time: 16 hours
@@ -12,8 +11,8 @@ tags:
 ## 🛒 Ingredients
 - 500g flour
 - 370g water
-- 1/4 tsp yeast
-- 1 1/2 tsp salt
+- ¼ tsp yeast
+- 1 ½ tsp salt
 
 ## 👩‍🍳 Directions
 1. Mix all ingredients together.
