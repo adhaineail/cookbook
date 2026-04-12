@@ -9,16 +9,16 @@ tags:
   - breakfast
 ---
 ## 🛒 Ingredients
-- 1 flax egg (heaping tbsp flax meal mixed with 2.5 tbsp warm water)
-- 2 cup unsweetened soy milk
-- 2 tablespoons lemon juice
-- 1 cup whole wheat flour
-- 1 cup oat or whole wheat pastry flour
-- 1 ½ tablespoons
-- ½ teaspoon salt
-- 2-3 tablespoons sugar
-- ½ cup unsweetened applesauce
-- 1 teaspoon of vanilla extract
+- **1** flax egg (heaping tbsp flax meal mixed with 2.5 tbsp warm water)
+- **2 cup** unsweetened soy milk
+- **2 tablespoons** lemon juice
+- **1 cup** whole wheat flour
+- **1 cup** oat or whole wheat pastry flour
+- **1 ½ tablespoons** baking powder
+- **½ teaspoon** salt
+- **2-3 tablespoons** sugar
+- **½ cup** unsweetened applesauce
+- **1 teaspoon** of vanilla extract
 
 ## 👩‍🍳 Directions
 1. Make your flax egg and creamy vegan buttermilk by mixing the almond milk and lemon juice. Set aside.
