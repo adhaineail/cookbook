@@ -1,0 +1,19 @@
+<div class="recipe-metadata" style="display: flex; gap: 20px; color: #666; font-size: 0.9em; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">
+  {% if page.cuisine %}
+    <span>🌍 <strong>Cuisine:</strong> {{ page.cuisine }}</span>
+  {% endif %}
+  
+  {% if page."Active Time" %}
+    <span>⏱️ <strong>Active Time:</strong> {{ page."Active Time" }}</span>
+  {% endif %}
+
+  {% if page."Total Time" %}
+    <span>⏱️ <strong>Active Time:</strong> {{ page."Total Time" }}</span>
+  {% endif %}
+
+  {% if page.servings %}
+    <span>🍽️ <strong>Serves:</strong> {{ page.servings }}</span>
+  {% endif %}
+</div>
+
+{{ content }}
