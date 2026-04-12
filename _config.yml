@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
 title: My Markdown Cookbook
-description: A collection of my favorite recipes.
-markdown: kramdown
+baseurl: "/cookbook"
+url: "https://adhaineail.github.io"
+theme: jekyll-theme-minimal
