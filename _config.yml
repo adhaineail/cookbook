@@ -2,3 +2,6 @@ title: My Markdown Cookbook
 baseurl: "/cookbook"
 url: "https://adhaineail.github.io"
 theme: minima
+kramdown:
+  input: GFM  # GitHub Flavored Markdown
+  hard_wrap: false
