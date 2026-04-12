@@ -4,6 +4,32 @@ layout: default
 {%- assign filename = page.path | split: "/" | last | replace: ".md", "" -%}
 {%- assign image_path = "_assets/" | append: filename | append: ".jpg" -%}
 
+<style>
+  .recipe-header-image { max-width: 100%; border-radius: 8px; margin-bottom: 1.5rem; }
+  .recipe-title { margin-bottom: 0.5rem; color: #2c3e50; }
+  
+  .info-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border-left: 5px solid #7253ed; /* Just the Docs purple */
+    font-size: 0.9rem;
+  }
+  .info-item { display: flex; flex-direction: column; }
+  .info-label { font-weight: bold; color: #5c5c5c; text-transform: uppercase; font-size: 0.75rem; }
+  .tag-pill {
+    background: #eee;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-right: 4px;
+    font-size: 0.8rem;
+  }
+</style>
+
 {% for file in site.static_files %}
   {% if file.path contains image_path %}
     <img src="{{ image_path | relative_url }}" style="max-width:100%; border-radius: 8px; margin-bottom: 2rem;">
@@ -11,5 +37,46 @@ layout: default
 {% endfor %}
 
 <h1 class="recipe-title">{{ page.title }}</h1>
+
+<div class="info-panel">
+  {% if page.cuisine %}
+  <div class="info-item">
+    <span class="info-label">Cuisine</span>
+    <span>{{ page.cuisine }}</span>
+  </div>
+  {% endif %}
+
+  {% if page["active time"] %}
+  <div class="info-item">
+    <span class="info-label">Active Time</span>
+    <span>{{ page["active time"] }}</span>
+  </div>
+  {% endif %}
+
+  {% if page["total time"] %}
+  <div class="info-item">
+    <span class="info-label">Total Time</span>
+    <span>{{ page["total time"] }}</span>
+  </div>
+  {% endif %}
+
+  {% if page.servings %}
+  <div class="info-item">
+    <span class="info-label">Serves</span>
+    <span>{{ page.servings }}</span>
+  </div>
+  {% endif %}
+
+  {% if page.tags %}
+  <div class="info-item">
+    <span class="info-label">Tags</span>
+    <span>
+      {% for tag in page.tags %}
+        <span class="tag-pill">#{{ tag }}</span>
+      {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+</div>
 
 {{ content }}
