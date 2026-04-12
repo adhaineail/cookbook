@@ -1,6 +1,6 @@
 ---
 title: Easy Wholemeal Bread
-layout: default
+layout: recipe
 image:
 cuisine:
 active time: 15 minutes
