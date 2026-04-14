@@ -9,7 +9,7 @@ tags:
   - indulgent
 ---
 ## 🛒 Ingredients
-- ¼ eggs
+- **4** eggs
 - **1 cup** granulated sugar
 - **250 g** dark chocolate
 - **2 tablespoons** cocoa
