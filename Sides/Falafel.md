@@ -31,5 +31,5 @@ tags:
 5. Cook the falafel. Pre-heat your oven to 425°F (220°C). Lightly spray or brush a baking sheet with oil. Place the falafel on the baking sheet, lightly spray or brush the top side with oil, and bake for 25 to 30 minutes, flipping halfway through. You can also bake them on parchment paper or a silicone mat without any oil. They'll just be slightly less crispy and golden.
 
 ## 📝 Notes
-- Serve with Hummus or [Lemon Garlic Tahini Sauce](../Condiments/Lemon%20Garlic%20Tahini%20Sauce.md) and [Sweet Potato Tortillas](Sides/Sweet%20Potato%20Tortillas.md)
+- Serve with Hummus or [Lemon Garlic Tahini Sauce](/Condiments/Lemon%20Garlic%20Tahini%20Sauce.md) and [Sweet Potato Tortillas](/Sides/Sweet%20Potato%20Tortillas.md)
 - Can make dough or balls ahead of time and freeze for up to 3 months. Thaw dough in the fridge, stir it, then form in balls or patties and cook. Or freeze cooked falafel and microwave or bake straight from frozen.
