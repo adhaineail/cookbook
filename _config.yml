@@ -6,3 +6,5 @@ permalink: pretty
 # theme: cayman
 remote_theme: just-the-docs/just-the-docs
 include: [".assets"]
+plugins:
+  - jekyll-relative-links
