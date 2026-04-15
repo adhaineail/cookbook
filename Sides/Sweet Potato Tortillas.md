@@ -8,7 +8,7 @@ servings: "16"
 tags:
   - batch
 ---
-	## 🛒 Ingredients
+## 🛒 Ingredients
 - **4** medium sweet potatoes
 - **4 cups** whole wheat flour
 - **1-1 ½ teaspoons** salt
