@@ -9,21 +9,21 @@ tags:
   - breakfast
 ---
 ## 🛒 Ingredients
-- **1** flax egg (heaping tablespoon of flax meal mixed with 2.5 tablespoons of warm water)
-- **2 cups** unsweetened soy milk
-- **2 tablespoons** lemon juice
-- **1 cup** whole wheat flour
-- **1 cup** oat or whole wheat pastry flour
-- **1 ½ tablespoons** baking powder
-- **½ teaspoon** salt
-- **2-3 tablespoons** sugar
-- **½ cup** unsweetened applesauce
-- **1 teaspoon** of vanilla extract
+- 1 flax egg (1 heaped tablespoon of flax meal mixed with 2 ½ tablespoons of warm water)
+- 2 cup unsweetened soy milk
+- 2 tablespoons lemon juice
+- 1 cup whole wheat flour
+- 1 cup oat or whole wheat pastry flour
+- 1 ½ tablespoons baking powder
+- ½ teaspoon salt
+- 2-3 tablespoons sugar
+- ½ cup unsweetened applesauce
+- 1 teaspoon of vanilla extract
 
 ## 👩‍🍳 Directions
-1. Make your **flax egg** and creamy vegan buttermilk by mixing the **almond milk** and **lemon juice**. Set aside.
-2. Sift all of the **dry ingredients** together in a large bowl. Then, add the **flax egg**, **vegan buttermilk**, **unsweetened applesauce**, **sugar**, and **vanilla extract**.
-3. Stir with a rubber spatula or wooden spoon until the batter is just combined. **Do not overmix**.
-4. **Preheat waffle maker** until hot. Spray lightly or rub with oil. Pour about **1/2 cup of the batter** onto each side of the waffle maker. **Cook for 6-7 minutes** until both sides of the waffle are golden brown. Do not lift up the waffle iron before the waffles are ready, or your waffles will stick.
+1. Make your flax egg and creamy vegan buttermilk by mixing the almond milk and lemon juice. Set aside.
+2. Sift all of the dry ingredients together in a large bowl. Then, add the flax egg, vegan buttermilk, unsweetened applesauce, and vanilla extract.
+3. Stir with a rubber spatula or wooden spoon until the batter is just combined. Do not overmix.
+4. Preheat waffle maker until hot. Spray lightly or rub with oil. Pour about ½ cup of the batter onto each side of the waffle maker. Cook for 6-7 minutes until both sides of the waffle are golden brown. Do not lift up the waffle iron before the waffles are ready, or your waffles will stick.
 
 ## 📝 Notes
